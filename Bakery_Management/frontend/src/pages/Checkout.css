@@ -1,0 +1,107 @@
+.checkout {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.checkout h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.cart-summary {
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item h4 {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.cart-item p {
+    font-size: 1rem;
+    color: #888;
+}
+
+.cart-item strong {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: left;
+}
+
+form label {
+    font-size: 1rem;
+    color: #333;
+}
+
+form input,
+form select {
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form input:focus,
+form select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+button {
+    padding: 1rem 2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.order-confirmation {
+    background-color: #e7f9e7;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid #4CAF50;
+    margin-top: 2rem;
+}
+
+.order-confirmation h3 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.order-confirmation p {
+    font-size: 1.2rem;
+    color: #555;
+}

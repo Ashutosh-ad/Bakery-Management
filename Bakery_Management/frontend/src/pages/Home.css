@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.home {
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    background: url('/public/images/banner.jpg') no-repeat center center/cover;
+    color: white;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero-content p {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.shop-now-btn {
+    padding: 1.2rem 2rem;
+    background-color: #FF7F50;  /* Orange color */
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.shop-now-btn:hover {
+    background-color: #FF4500;  /* Darker orange */
+}
+
+/* Categories Section */
+.categories {
+    padding: 2rem;
+}
+
+.categories-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.category img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.category h3 {
+    margin: 0.5rem 0;
+}
+
+/* Featured Products */
+.featured-products {
+    padding: 2rem;
+    background: #f9f9f9;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.product h3, .product p {
+    margin: 0.5rem 0;
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 2rem;
+}
+
+.testimonial {
+    margin: 1rem 0;
+    font-style: italic;
+}
+
+.testimonial span {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+}
+
+.social-icons a {
+    margin: 0 0.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    text-decoration: underline;
+}
+input {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#subscribe {
+    padding: 0.5rem 1rem;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#subscribe:hover {
+    background-color: #ff4500;
+}
